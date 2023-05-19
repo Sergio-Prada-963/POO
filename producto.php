@@ -85,7 +85,7 @@
     $producto->setTipo("Silla de tipo para sentarce :)");
     $producto->setColor("Color Negro And Marron :)");
     $producto->setTamaño("Es plegable y ocupa poco espacio :)"); */
-
+    echo $Producto . "soy los productos prro";
     echo "<h2>Nombre del Producto :  </h2>";
     echo $producto->getNombre() . "<br>";
     echo "<h2>Precio del Producto :  </h2>";
